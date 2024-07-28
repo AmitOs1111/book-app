@@ -1,0 +1,17 @@
+.make-todo {
+  border-bottom: 2px solid grey;
+  padding-block: 10px;
+}
+
+.make-todo input {
+  border: none;
+  margin-inline-end: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.make-todo button {
+  background-color: var(--btn-bg-login);
+  color: #fff;
+  padding: 10px;
+}

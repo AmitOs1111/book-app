@@ -1,0 +1,26 @@
+.bug-index {
+  min-height: var(--height-page);
+}
+
+.bug-list {
+  display: grid;
+  padding-left: 0;
+}
+
+.bug-card {
+  padding: 8px;
+}
+
+@media (max-width: 640px) {
+  .bug-list {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (min-width: 640px) {
+  .bug-list {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+}

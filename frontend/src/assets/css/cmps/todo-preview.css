@@ -1,0 +1,25 @@
+.preview-todo {
+  width: 360px;
+  font-size: 14px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.preview-todo h2 {
+  font-weight: 200;
+}
+
+.check-box {
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: green;
+  text-align: center;
+  margin-inline-end: 10px;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: grey;
+}

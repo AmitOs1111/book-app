@@ -14,9 +14,10 @@ export default function App() {
         <NavLink to="/about">About</NavLink>
       </header>
       <main>
+        <AboutUs />
         <Routes>
-          <Route element={<HomePage />} path="/" />
-          <Route element={<AboutUs />} path="/about" />
+          <Route element={HomePage} path="/" />
+          <Route element={AboutUs} path="/about" />
           {/* <Route element={BookIndex} path="/book" /> */}
           {/* <Route element={BookEdit} path="/book/edit" /> */}
           {/* <Route element={BookDetails} path="/book/:bookId" /> */}

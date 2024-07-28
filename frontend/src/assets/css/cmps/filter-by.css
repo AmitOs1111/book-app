@@ -1,0 +1,16 @@
+.filter-by {
+  /* background-color: aquamarine; */
+  padding: 20px;
+}
+
+.filter-by input {
+  margin-inline-end: 20px;
+  padding: 6px;
+  width: 200px;
+}
+
+.filter-by select {
+  width: 150px;
+  padding: 6px;
+  /* background-color: aqua; */
+}
