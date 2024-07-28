@@ -1,0 +1,11 @@
+.app-header {
+  /* background-color: var(--main-bg-color); */
+}
+
+.app-header h1 {
+  padding-block: 8px;
+}
+
+.app-header nav {
+  padding-block: 9.5px;
+}

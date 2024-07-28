@@ -1,0 +1,9 @@
+:root {
+  --bgc-app-header: rgb(12, 53, 0);
+  --main-bg-color: lightblue;
+  --main-bg-btn: rgb(105, 174, 197);
+  --header-bg-card: rgb(227, 189, 52);
+  --btn-bg-login: rgb(30, 109, 125);
+
+  --height-page: calc(100vh - 200px);
+}

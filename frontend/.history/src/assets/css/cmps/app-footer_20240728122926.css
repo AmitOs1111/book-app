@@ -1,0 +1,4 @@
+.app-footer {
+  background-color: var(--bgc-footer);
+  padding-block: 2rem;
+}
