@@ -1,0 +1,15 @@
+.user-msg {
+  width: 300px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.user-msg.success {
+  background-color: rgb(31, 142, 31);
+}
+
+.user-msg.error {
+  background-color: rgb(236, 71, 16);
+}

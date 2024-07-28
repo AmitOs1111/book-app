@@ -1,0 +1,8 @@
+:root {
+  --bgc-app-header: rgba(0, 70, 13, 0.88);
+  --bgc-app-footer: rgb(67, 92, 75);
+  --bgc-btn-card: rgb(114, 118, 115);
+  --bgc-btn-card-hover: rgb(174, 179, 175);
+
+  /* --height-page: calc(100vh - 200px); */
+}

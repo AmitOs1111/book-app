@@ -1,0 +1,13 @@
+.book-index {
+  position: relative;
+}
+
+.header-book-index {
+  padding: 0.8rem;
+}
+
+.header-book-index button {
+  padding: 0.6rem;
+  background-color: var(--bgc-btn-header-book-index);
+  color: aliceblue;
+}

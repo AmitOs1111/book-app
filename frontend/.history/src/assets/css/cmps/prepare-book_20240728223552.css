@@ -1,0 +1,15 @@
+.prepare-book {
+  height: 70vh;
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0;
+
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 400px);
+}
+
+.header-prepare-book {
+  padding: 1rem;
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+button,
+a,
+li {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+textarea,
+input:focus {
+  outline: none;
+  background-color: rgb(227, 227, 226);
+}

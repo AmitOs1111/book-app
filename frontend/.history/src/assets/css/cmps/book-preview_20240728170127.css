@@ -1,0 +1,24 @@
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding-left: 0px;
+  margin-block: 2rem;
+}
+
+.preview-book {
+  text-align: start;
+}
+
+.book-list button Link {
+  background-color: var(--bgc-btn-card);
+  padding: 8px 15px;
+  margin-inline-start: 1rem;
+  color: aliceblue;
+}
+
+@media (max-width: 640px) {
+  .book-list {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+}

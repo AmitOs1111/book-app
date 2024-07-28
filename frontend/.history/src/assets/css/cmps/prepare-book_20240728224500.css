@@ -1,0 +1,44 @@
+.prepare-book {
+  height: 70vh;
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0;
+
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 400px);
+  font-size: 16px;
+}
+
+.prepare-book button {
+  background-color: var(--bgc-btn-card);
+  padding: 0.8rem;
+  color: #fff;
+  font-size: 18px;
+}
+
+.prepare-book button:hover {
+  background-color: var(--bgc-btn-card-hover);
+}
+
+.header-prepare-book {
+  padding: 1rem;
+  background-color: rgb(179, 245, 194);
+  align-items: center;
+  font-size: 18px;
+  color: var(--bgc-btn-card);
+}
+
+.prepare-book form {
+  padding: 1rem;
+  /* height: 60%; */
+}
+
+.prepare-book input,
+textarea,
+select {
+  padding: 0.7rem;
+  margin-block-end: 0.8rem;
+  /* background-color: aqua; */
+}

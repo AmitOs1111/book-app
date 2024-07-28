@@ -1,0 +1,15 @@
+.dark-screen.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(52, 52, 52);
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.dark-screen {
+  display: none;
+}
