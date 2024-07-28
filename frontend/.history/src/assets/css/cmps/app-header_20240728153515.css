@@ -1,0 +1,14 @@
+.app-header {
+  /* background-color: var(--bgc-app-header); */
+  background: rgb(143, 148, 141);
+  background: radial-gradient(
+    circle,
+    rgb(104, 106, 103) 0%,
+    rgba(19, 118, 1, 0.986) 29%,
+    rgb(1, 93, 4) 55%,
+    rgb(1, 51, 5) 76%,
+    rgb(4, 40, 1) 100%
+  );
+  padding-block: 3rem;
+  color: #fff;
+}
