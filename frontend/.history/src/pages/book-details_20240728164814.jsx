@@ -29,13 +29,11 @@ export function BookDetails() {
   return (
     <section className="book-details">
       <img src={book.thumbnail} alt="" />
-      <div className="details-content">
-        <h2>{book.title}</h2>
-        <h3>{book.subtitle}</h3>
-        <h4>{`author: ${book.authors[0]}`}</h4>
-        <h4>{`published: ${book.publishedDate}`}</h4>
-        <p>{book.description}</p>
-      </div>
+      <h2>{book.title}</h2>
+      <h3>{book.subtitle}</h3>
+      <h4>{`author: ${book.authors[0]}`}</h4>
+      <h4>{`published: ${book.publishedDate}`}</h4>
+      <p>{book.description}</p>
     </section>
   )
 }

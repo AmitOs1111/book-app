@@ -1,0 +1,25 @@
+.book-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 100px;
+}
+
+.book-details .details-content {
+  height: 300px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-inline-start: 30px;
+}
+
+.book-details img {
+  width: 300px;
+}
+
+@media (max-width: 640px) {
+  .book-details .details-content {
+    flex-direction: row;
+  }
+}

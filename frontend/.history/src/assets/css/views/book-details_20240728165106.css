@@ -1,0 +1,10 @@
+.book-details {
+  text-align: start;
+}
+
+.book-details img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.book-details {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.book-details .details-content {
+  text-align: start;
+}
+
+.book-details img {
+  width: 300px;
+}
