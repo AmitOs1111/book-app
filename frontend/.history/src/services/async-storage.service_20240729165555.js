@@ -15,7 +15,7 @@ function query(entityType, filterBy, delay = 600) {
     entities = dataService.getDataBooks()
     _save(entityType, entities)
   }
-  console.log('entities', entities)
+
   if (filterBy.title) {
     const regExp = new RegExp(filterBy.title, 'i')
     entities = entities.filter((book) => regExp.test(book.title))
@@ -25,7 +25,6 @@ function query(entityType, filterBy, delay = 600) {
       (book) => book.listPrice.amount >= filterBy.amount
     )
   }
-  console.log('entities', entities)
 
   return new Promise((resolve, reject) => {
     setTimeout(() => {

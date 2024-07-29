@@ -26,8 +26,7 @@ export function bookReducer(state = initialState, action) {
     case SET_DARK_SCREEN:
       return { ...state, isDarkScreen: action.isDarkScreen }
     case SET_FILTER_BY:
-      let appFilter = { ...state.appFilter, ...action.filter }
-      return { ...state, appFilter }
+      return { ...state, appFilter: { ...appFilter, ...action.filter } }
 
     case SET_BOOKS:
       return { ...state, books: action.books }

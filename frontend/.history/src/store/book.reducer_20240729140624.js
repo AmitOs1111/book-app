@@ -11,23 +11,24 @@ const initialState = {
   books: [],
   isLoading: false,
   isDarkScreen: false,
-  appFilter: {
+  filterBy: {
     title: '',
-    amount: 0,
+    amount: 10,
     categories: '',
   },
 }
 
 export function bookReducer(state = initialState, action) {
   let books
+  let filterBy
   switch (action.type) {
     case SET_LOADING:
       return { ...state, isLoading: action.isLoading }
     case SET_DARK_SCREEN:
       return { ...state, isDarkScreen: action.isDarkScreen }
     case SET_FILTER_BY:
-      let appFilter = { ...state.appFilter, ...action.filter }
-      return { ...state, appFilter }
+      filterBy = { ...action.filterBy }
+      return { ...state, filterBy }
 
     case SET_BOOKS:
       return { ...state, books: action.books }

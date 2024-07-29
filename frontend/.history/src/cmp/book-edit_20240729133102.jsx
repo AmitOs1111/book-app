@@ -20,6 +20,11 @@ export function BookEdit({ togglePrepareBook }) {
 
     if (params.bookId) loadBook(params.bookId)
     else loadRandBook()
+
+    return () => {
+      dispatch({ type: 'SET_DARK_SCREEN', isDarkScreen: false })
+      console.log('Done!')
+    }
   }, [])
 
   function loadBook(bookId) {

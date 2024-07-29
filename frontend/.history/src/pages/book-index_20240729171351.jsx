@@ -23,7 +23,7 @@ export function BookIndex() {
   }, [])
 
   useEffect(() => {
-    console.log('filterBy:', filterBy)
+    console.log('filterBy:')
     // loadBooks()
   }, [filterBy])
 

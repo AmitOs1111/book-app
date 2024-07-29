@@ -13,7 +13,7 @@ const initialState = {
   isDarkScreen: false,
   appFilter: {
     title: '',
-    amount: 0,
+    amount: 120,
     categories: '',
   },
 }

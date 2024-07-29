@@ -12,7 +12,7 @@ const initialState = {
   isLoading: false,
   isDarkScreen: false,
   appFilter: {
-    title: '',
+    title: 'morbi',
     amount: 0,
     categories: '',
   },

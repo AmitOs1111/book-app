@@ -18,20 +18,14 @@ export function BookIndex() {
   const [isPrepareBook, setIsPrepareBook] = useState(false)
 
   useEffect(() => {
-    console.log('rendering...')
-    loadBooks()
-  }, [])
-
-  useEffect(() => {
-    console.log('filterBy:', filterBy)
-    // loadBooks()
+    loadBooks(filterBy)
   }, [filterBy])
 
   useEffect(() => {
     dispatch({ type: 'SET_DARK_SCREEN', isDarkScreen: isPrepareBook })
   }, [isPrepareBook])
 
-  function loadBooks() {
+  function loadBooks(filterBy) {
     dispatch({ type: 'SET_LOADING', isLoading: true })
     bookService
       .query(filterBy)

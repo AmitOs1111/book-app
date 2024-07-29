@@ -18,7 +18,6 @@ export function BookIndex() {
   const [isPrepareBook, setIsPrepareBook] = useState(false)
 
   useEffect(() => {
-    console.log('rendering...')
     loadBooks()
   }, [])
 

@@ -1,6 +1,5 @@
 const SET_LOADING = 'SET_LOADING'
 const SET_DARK_SCREEN = 'SET_DARK_SCREEN'
-const SET_FILTER_BY = 'SET_FILTER_BY'
 
 const SET_BOOKS = 'SET_BOOKS'
 const REMOVE_BOOK = 'REMOVE_BOOK'
@@ -11,7 +10,7 @@ const initialState = {
   books: [],
   isLoading: false,
   isDarkScreen: false,
-  appFilter: {
+  filterBy: {
     title: '',
     amount: 0,
     categories: '',
@@ -25,9 +24,6 @@ export function bookReducer(state = initialState, action) {
       return { ...state, isLoading: action.isLoading }
     case SET_DARK_SCREEN:
       return { ...state, isDarkScreen: action.isDarkScreen }
-    case SET_FILTER_BY:
-      let appFilter = { ...state.appFilter, ...action.filter }
-      return { ...state, appFilter }
 
     case SET_BOOKS:
       return { ...state, books: action.books }

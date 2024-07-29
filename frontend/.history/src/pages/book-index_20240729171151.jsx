@@ -24,7 +24,7 @@ export function BookIndex() {
 
   useEffect(() => {
     console.log('filterBy:', filterBy)
-    // loadBooks()
+    loadBooks()
   }, [filterBy])
 
   useEffect(() => {

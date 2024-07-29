@@ -18,12 +18,10 @@ export function BookIndex() {
   const [isPrepareBook, setIsPrepareBook] = useState(false)
 
   useEffect(() => {
-    console.log('rendering...')
     loadBooks()
   }, [])
 
   useEffect(() => {
-    console.log('filterBy:', filterBy)
     // loadBooks()
   }, [filterBy])
 

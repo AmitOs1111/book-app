@@ -13,19 +13,12 @@ export function BookIndex() {
   const dispatch = useDispatch()
   let books = useSelector((state) => state.bookModule.books)
   let isLoading = useSelector((state) => state.bookModule.isLoading)
-  let filterBy = useSelector((state) => state.bookModule.appFilter)
 
   const [isPrepareBook, setIsPrepareBook] = useState(false)
 
   useEffect(() => {
-    console.log('rendering...')
     loadBooks()
   }, [])
-
-  useEffect(() => {
-    console.log('filterBy:', filterBy)
-    // loadBooks()
-  }, [filterBy])
 
   useEffect(() => {
     dispatch({ type: 'SET_DARK_SCREEN', isDarkScreen: isPrepareBook })
@@ -34,7 +27,7 @@ export function BookIndex() {
   function loadBooks() {
     dispatch({ type: 'SET_LOADING', isLoading: true })
     bookService
-      .query(filterBy)
+      .query()
       .then((books) => dispatch({ type: 'SET_BOOKS', books }))
       .finally(() => dispatch({ type: 'SET_LOADING', isLoading: false }))
   }
