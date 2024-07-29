@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "abc123",
+    "username": "puki",
+    "fullname": "puki pu",
+    "password": "123",
+    "src": "https://robohash.org/puki?set=set1"
+  },
+  {
+    "_id": "abc124",
+    "username": "muki",
+    "fullname": "muki mu",
+    "password": "444",
+    "src": "https://robohash.org/muki?set=set1"
+  },
+  {
+    "_id": "in5tF",
+    "username": "lolo",
+    "fullname": "lolo lo",
+    "password": "123",
+    "src": "https://robohash.org/lolo?set=set1"
+  },
+  {
+    "_id": "dWa96",
+    "username": "",
+    "fullname": "",
+    "password": "",
+    "src": "https://robohash.org/?set=set1"
+  }
+]
