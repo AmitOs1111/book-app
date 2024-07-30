@@ -1,0 +1,19 @@
+.header-book-index ::after {
+  box-shadow: 0 0 6px 0;
+}
+
+.app-filter {
+  background-color: aqua;
+  padding: 10px;
+  width: 100%;
+}
+
+.app-filter input {
+  width: 30%;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.app-filter select {
+  width: 150px;
+}

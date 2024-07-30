@@ -1,0 +1,9 @@
+.app-filter {
+  background-color: aqua;
+  padding: 10px;
+  width: 100%;
+}
+
+.app-filter input {
+  width: 200px;
+}
