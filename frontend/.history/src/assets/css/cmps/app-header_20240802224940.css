@@ -1,0 +1,29 @@
+.app-header {
+  /* background-color: var(--bgc-app-header); */
+  background: rgb(5, 116, 27);
+  background: linear-gradient(0deg, rgb(2, 82, 18) 0%, rgb(10, 38, 1) 100%);
+  padding-block: 3rem;
+}
+
+.header-nav-link {
+  /* background-color: aqua; */
+  color: #fff;
+  font-size: 20px;
+  margin-inline-end: 50px;
+}
+
+.header-logo {
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.app-header h3 {
+  font-size: 22px;
+  color: antiquewhite;
+}
+
+@media (max-width: 640px) {
+  .header-logo {
+    font-size: 20px;
+  }
+}

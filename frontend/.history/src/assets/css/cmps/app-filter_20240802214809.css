@@ -1,0 +1,39 @@
+.header-book-index {
+  border-bottom: 2px solid rgb(206, 204, 204);
+}
+
+.app-filter {
+  padding: 10px;
+  width: 100%;
+}
+
+.app-filter input {
+  width: 30%;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.app-filter select {
+  width: 150px;
+}
+
+.slider-filter {
+  background-color: aqua;
+}
+
+@media (max-width: 640px) {
+  .header-book-index {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+
+  .app-filter {
+    flex-wrap: wrap;
+  }
+
+  .app-filter input {
+    width: 90%;
+    padding: 5px;
+    margin-block: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.app-header {
+  /* background-color: var(--bgc-app-header); */
+  background: rgb(5, 116, 27);
+  background: linear-gradient(0deg, rgb(2, 82, 18) 0%, rgb(10, 38, 1) 100%);
+  padding-block: 3rem;
+  color: #fff;
+  align-items: center;
+}
+
+.header-nav-link {
+  background-color: aqua;
+  font-size: 20px;
+}
