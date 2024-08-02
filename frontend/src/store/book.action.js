@@ -10,11 +10,12 @@ import {
 } from './book.reducer.js'
 
 export function loadBooks(filterBY) {
-  store.dispatch({ type: SET_LOADING, isLoading: true })
+  // store.dispatch({ type: SET_LOADING, isLoading: true })
 
   return bookService
     .query(filterBY)
     .then((books) => {
+      // store.dispatch({ type: SET_LOADING, isLoading: false })
       store.dispatch({ type: SET_BOOKS, books })
     })
     .catch((err) => {
@@ -23,7 +24,7 @@ export function loadBooks(filterBY) {
       throw err
     })
     .finally(() => {
-      store.dispatch({ type: SET_LOADING, isLoading: false })
+      // store.dispatch({ type: SET_LOADING, isLoading: false })
     })
 }
 
